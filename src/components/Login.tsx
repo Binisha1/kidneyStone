@@ -1,4 +1,4 @@
-import { Button, Card, Checkbox, Label, TextInput } from "flowbite-react";
+import { Button, Card, Label, TextInput } from "flowbite-react";
 const Login = () => {
   return (
     <div className="flex justify-center items-center min-h-screen">
@@ -24,10 +24,7 @@ const Login = () => {
             </div>
             <TextInput id="password1" type="password" required />
           </div>
-          <div className="flex items-center gap-2">
-            <Checkbox id="remember" />
-            <Label htmlFor="remember">Remember me</Label>
-          </div>
+
           <Button type="submit">Sign in</Button>
           <p className="text-sm font-light text-gray-500 dark:text-gray-400">
             Don't have an account yet?{" "}
