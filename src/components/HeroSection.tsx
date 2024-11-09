@@ -1,12 +1,12 @@
 const HeroSection = () => {
   return (
     <section className="bg-primary dark:bg-gray-900 ">
-      <div className="flex max-w-screen-xl px-4 py-8 lg:mx-32 lg:gap-8 xl:gap-0 lg:py-20 items-center ">
+      <div className="flex max-w-screen-xl px-4 py-20 md:mx-20 lg:mx-32 lg:gap-8 xl:gap-0   items-center ">
         <div className="mr-auto">
-          <h1 className="max-w-xl  mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+          <h1 className="max-w-lg md:max-w-xl  mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
             Empowering Precision in Kidney Stone Detection
           </h1>
-          <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+          <p className="lg:max-w-xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
             Fast, Reliable, and AI-driven Insights for Better Health
           </p>
 
@@ -29,7 +29,7 @@ const HeroSection = () => {
             </svg>
           </a>
         </div>
-        <div className="hidden lg:flex">
+        <div className="hidden md:flex">
           <img src="src\assets\kidney1.png" alt="kidney" />
         </div>
       </div>

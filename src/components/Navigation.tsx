@@ -2,7 +2,7 @@ import { Avatar, Dropdown, Navbar } from "flowbite-react";
 
 const Navigation = () => {
   return (
-    <div className="bg-primary">
+    <div className="bg-primary  sticky">
       <Navbar fluid rounded className="lg:mx-32 bg-primary">
         <Navbar.Brand href="/">
           <span className="self-center text-xl font-semibold dark:text-white">
